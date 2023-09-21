@@ -1,0 +1,32 @@
+.Burger_menu_open{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Define the animation for menu opening */
+@keyframes menuOpen {
+    0% {
+      transform: scaleY(0);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  /* Apply the animation to the menu when it opens */
+  .animate-menu-open {
+    animation-name: menuOpen;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+    transform-origin: top;
+    transform: scaleY(1);
+  }
+
+  
+  

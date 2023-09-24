@@ -1,3 +1,13 @@
 /* .main_text{
     width: 465px;
 } */
+.frst {
+    order: 2;
+}
+
+@media screen and (max-width: 641px) {
+    .frst {
+        order: unset; /* Reset the order property */
+        
+    }
+}

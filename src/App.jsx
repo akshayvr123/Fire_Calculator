@@ -5,15 +5,17 @@ import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import Home from './Components/Home/Home'
 import Working from './Components/Working/Working'
+import Fire from './Components/Fire/Fire'
 
 function App() {
  
 
   return (
     <>
-    <NavBar></NavBar>
-    <Home></Home>
+    <NavBar/>
+    <Home/>
     <Working workingData={working}/>
+    <Fire/>
     </>
   )
 }

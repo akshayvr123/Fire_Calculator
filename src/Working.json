@@ -3,7 +3,7 @@
     {
         "id":0,
         "Heading":"1,Calculate Your Fire Number",
-        "content":"Calculate Your fire no to know how much money you need to have to acheive financial freedom",
+        "content":"Calculate Your fire no to know how much money you need to have to acheive financial freedom in your life",
         "img":"Images/fire calculator.jpg",
         "margin":"2xl:ml-40"
         
@@ -13,7 +13,7 @@
     {
         "id":1,
         "Heading":"2,Investment(SIP)calculator",    
-        "content":"Calculate Your fire no and find How maany years it take for you ",
+        "content":"Now use the SIP Calculator to know how to acheive your fire Number.Also adjust the values to match your fire number",
         "img":"Images/SIP calculator.png",
         "order":"frst"  ,
         "margin2xl":"2xl:ml-40",
@@ -25,7 +25,7 @@
     {   
         "id":2,
         "Heading":"3,Invest Money!",
-        "content":"Calculate Your fire no to know how much money you need to have to acheive financial freedom",
+        "content":"Now you have your fire number and know how to acheive it ,Then what are you waiting for Start Investing!",
         "img":"Images/Investment.jpg",
         "margin":"2xl:ml-40"
        

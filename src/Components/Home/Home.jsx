@@ -3,6 +3,7 @@ import './Home.css';
 import financial_freedom from './Financial freedom.jpg';
 
 const Home = () => {
+  
   return (
     <div>
       <div className="container">

@@ -12,7 +12,7 @@ const NavBar = () => {
     <div>
       <div className="container">
         <div className='flex items-center justify-between p-2 '>
-          <p className='NavBar text-xl font-semibold pt-2 pl-11'>Fire Calculator</p>
+          <p className='2xl:ml-40 NavBar text-xl font-semibold pt-2 pl-11'>Fire Calculator</p>
           <div className='hidden sm:flex items-center ml-auto pt-2'>
             <a href="#" className="text-white hover:font-bold mx-3 text-xl font-semibold">Home</a>
             <a href="#" className="text-white hover:font-bold mx-3 text-xl font-semibold">Working</a>

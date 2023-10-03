@@ -9,7 +9,7 @@ const Home = () => {
       <div className="container">
         <div className=" text-white  flex flex-row items-center 2xl:ml-40 ">
           <div className=" w-2/3 2xl:w-2/4 md:w-2/4 lg:w-8/12  ">
-            <h1 className="ml-5 text-4xl w-96 sm:mt-5 md:text-4xl xl:text-7xl 2xl:text-7xl lg:text-6xl xl:font-bold xl:mt-10 Home_text mt-2  lg:w-auto xl:w-auto 2xl:w-auto md:w-auto">
+            <h1 className=" sm:mt-5 md:text-4xl xl:text-7xl 2xl:text-7xl lg:text-6xl xl:font-bold xl:mt-10 Home_text ml-12 mt-2 w-72 lg:w-auto xl:w-auto 2xl:w-auto md:w-auto">
               Calculator to Your <br /> Financial Freedom
             </h1>
             <p className="ml-5 xl:text-3xl 2xl:text-3xl  lg:text-2xl lg:w-auto xl:w-auto mt-4 leading-7 font-semibold text-base w-80 h-24 ">

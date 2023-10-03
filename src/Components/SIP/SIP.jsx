@@ -21,10 +21,10 @@ const SIP = () => {
   return (
     <div>
       <div className="container">
-        <h1 className='2xl:ml-52 2xl:text-6xl 2xl:mt-16 xl:mt-12 lg:text-6xl text-3xl font-bold ml-12 mt-3 md:text-4xl'>SIP Calculator</h1>
+        <h1 className='2xl:ml-52 2xl:text-6xl 2xl:mt-16 xl:mt-12 lg:text-6xl text-3xl font-bold ml-5 mt-3 md:text-4xl'>SIP Calculator</h1>
         <div>
             <div className='flex  flex-col sm:flex-row mt-6 2xl:ml-40 2xl:mr-36'>
-            <div className=' 2xl:w-9/12 lg:w-5/12  lg:h-44 lg:mt-5 sm:w-64 md:w-80 bg-white w-80 h-42 ml-12 mr-5  rounded-md mt-7 p-5 '>
+            <div className=' 2xl:w-9/12 lg:w-5/12  lg:h-44 lg:mt-5 sm:w-64 md:w-80 bg-white w-80 h-42 ml-5 mr-5  rounded-md mt-7 p-5 '>
                      <h1 className='expected leading-7 opacity-80  text-xs font-bold text-black'>Monthly investment</h1>
                      {/* <h1 className='text-black text-lg opacity-80 font-bold'>{expense}</h1> */}
                      <input type="number" min={1000} max={150000} className='bg-black font-bold  rounded-md mt-2 pl-2 w-56 text-white' onChange={(e)=>{setInvestment(e.target.value)}} value={investment} />
@@ -35,7 +35,7 @@ const SIP = () => {
                      </div>
                     
                 </div>
-                <div className='2xl:ml-0 2xl:w-9/12 xl:ml-16 lg:w-5/12 lg:ml-8 lg:h-44 lg:mt-5 sm:w-64 md:ml-2 md:w-80 bg-white w-80 h-42 ml-12 mr-5  rounded-md mt-7 p-5 '>
+                <div className='2xl:ml-0 2xl:w-9/12 xl:ml-16 lg:w-5/12 lg:ml-8 lg:h-44 lg:mt-5 sm:w-64 md:ml-2 md:w-80 bg-white w-80 h-42 ml-5 mr-5  rounded-md mt-7 p-5 '>
                      <h1 className='expected leading-7   text-xs font-bold text-black'>Expected Returns in %</h1>
                      {/* <h1 className='text-black text-lg opacity-80 font-bold'>{expense}</h1> */}
                      <input max={30} min={1} type="number" className='bg-black font-bold  rounded-md mt-2 pl-2 w-56 text-white' onChange={(e)=>{setReturns(e.target.value)}} value={returns} />
@@ -59,7 +59,7 @@ const SIP = () => {
      
         <div>
             <div className='flex  flex-col sm:flex-row mt-0 2xl:ml-40 2xl:mr-36'>
-            <div className=' 2xl:w-9/12 lg:w-5/12  lg:h-44 lg:mt-5 sm:w-64 md:w-80 bg-white w-80 h-42 ml-12 mr-5  rounded-md mt-7 p-5 '>
+            <div className=' 2xl:w-9/12 lg:w-5/12  lg:h-44 lg:mt-5 sm:w-64 md:w-80 bg-white w-80 h-42 ml-5 mr-5  rounded-md mt-7 p-5 '>
                      <h1 className='expected leading-7 opacity-80  text-xs font-bold text-black'>Time Period in Years</h1>
                      {/* <h1 className='text-black text-lg opacity-80 font-bold'>{expense}</h1> */}
                      <input type="number" min={1} max={50} className='bg-black font-bold  rounded-md mt-2 pl-2 w-56 text-white' onChange={(e)=>{setYear(e.target.value)}} value={year} />
@@ -70,7 +70,7 @@ const SIP = () => {
                      </div>
                     
                 </div>
-                <div className='2xl:ml-0 2xl:w-9/12 xl:ml-16 lg:w-5/12 lg:ml-8 lg:h-44 lg:mt-5 sm:w-64 md:ml-2 md:w-80 bg-white w-80 h-42 ml-12 mr-5  rounded-md mt-7 p-5 '>
+                <div className='2xl:ml-0 2xl:w-9/12 xl:ml-16 lg:w-5/12 lg:ml-8 lg:h-44 lg:mt-5 sm:w-64 md:ml-2 md:w-80 bg-white w-80 h-42 ml-5 mr-5  rounded-md mt-7 p-5 '>
                      <h1 className='expected leading-7   text-xs font-bold text-black'>Enter Your Fire Number</h1>
                      {/* <h1 className='text-black text-lg opacity-80 font-bold'>{expense}</h1> */}
                      <input max={100000} min={500000000} type="number" className='bg-black font-bold  rounded-md mt-2 pl-2 w-56 text-white' onChange={(e)=>{setFire(e.target.value)}} value={fire} />
@@ -93,7 +93,7 @@ const SIP = () => {
         </div>
         
         <div className='flex sm:justify-center'>
-        <button onClick={()=>setState(true)} className='generate_button ml-12 font-bold w-80 mt-7 ' >Calculate Fire</button>
+        <button onClick={()=>setState(true)} className='generate_button ml-5 font-bold w-80 mt-7 ' >Calculate Fire</button>
         </div>
      { state &&<SIPTotal fire={fire} total={total}></SIPTotal>} 
        

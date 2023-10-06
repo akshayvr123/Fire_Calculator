@@ -22,12 +22,12 @@ const NavBar = () => {
           </div>
           <img onClick={() => { setOpen(!open) }} className='w-16 h-16 mr-5 pt-2 sm:invisible' src={burger} alt="" />
         </div>
-        { open &&<div className={`animate-menu-open Burger_menu_open ml-auto mr-5 flex-col sm:invisible`}>
+        { open &&<div onClick={() => { setOpen(!open) }} className={`animate-menu-open Burger_menu_open ml-auto mr-5 flex-col sm:invisible`}>
           <a href="#Home" className="text-black hover:font-bold my-1 text-xl font-semibold justify-center ">Home</a>
           <a href="#Working" className="text-black hover:font-bold my-1  text-xl font-semibold">Working</a>
           <a href="#Fire" className="text-black hover:font-bold my-1  text-xl font-semibold">FIRE</a>
           <a href="#Sip" className="text-black hover:font-bold my-1  text-xl font-semibold">SIP</a>
-          <a href="#Invest" className="text-black hover:font-bold my-1  text-xl font-semibold">Invest!</a>
+          <a href="#Invest"  className="text-black hover:font-bold my-1  text-xl font-semibold">Invest!</a>
         </div>}
       </div>
     </div>

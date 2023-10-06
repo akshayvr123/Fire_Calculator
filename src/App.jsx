@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import working from './Working.json'
 import './App.css'
 import NavBar from './Components/NavBar/NavBar'

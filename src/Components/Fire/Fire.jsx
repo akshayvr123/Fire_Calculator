@@ -14,9 +14,9 @@ const Fire = () => {
       setTotal(Math.round(fire / 10000) * 10000)
     },[years,expense])   
   return (
-    <div>
-      <div className="container">
-        <h1 className='ml-5 2xl:ml-52 2xl:text-6xl 2xl:mt-16 xl:mt-12 lg:text-6xl text-3xl font-bold  mt-3 md:text-4xl'>Fire Calculator</h1>
+    <div id="Fire">
+      <div  className="container">
+        <h1 className='ml-5 2xl:ml-44 2xl:text-6xl 2xl:mt-16 xl:mt-12 lg:text-6xl text-3xl font-bold  mt-3 md:text-4xl'>Fire Calculator</h1>
         <div>
             <div className='flex flex-col sm:flex-row mt-6 2xl:ml-40 2xl:mr-36'>
             <div className=' 2xl:w-9/12 lg:w-5/12  lg:h-44 lg:mt-5 sm:w-64 md:w-80 bg-white w-80 h-42 ml-5 mr-5  rounded-md mt-7 p-5 '>

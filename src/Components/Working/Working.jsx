@@ -8,9 +8,9 @@ const Working = ({workingData}) => {
     
      
   return (
-    <div>
+    <div id="Working">
       <div className="container">
-        <h1  className='ml-5 2xl:ml-52 2xl:text-6xl 2xl:mt-16 xl:mt-12 lg:text-6xl text-3xl font-bold  mt-3 md:text-4xl'>How Does It Work?</h1>
+        <h1  className='ml-5 2xl:ml-44 2xl:text-6xl 2xl:mt-16 xl:mt-12 lg:text-6xl text-3xl font-bold  mt-3 md:text-4xl'>How Does It Work?</h1>
         {workingData&& workingData.map((data)=>{
          console.log(data.order);
         

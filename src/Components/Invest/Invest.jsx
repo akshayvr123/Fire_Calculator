@@ -11,7 +11,7 @@ const Invest = () => {
       <div className="container flex flex-row flex-wrap">
 
         <div className='2xl:6/12 md:w-6/12   '>
-            <img className='2xl:w-9/12  2xl:ml-52 lg:w-10/12 md:w-80 sm:w-64 w-80 h-56 ml-5 rounded-lg mt-6 hover:opacity-20 img' src={upstox} alt="" />
+          <a href="https://link.upstox.com/GSywvYcFVANJXbHf8"> <img className='2xl:w-9/12  2xl:ml-52 lg:w-10/12 md:w-80 sm:w-64 w-80 h-56 ml-5 rounded-lg mt-6 hover:opacity-20 img' src={upstox} alt="" /></a> 
            
         </div>
         <div className='2xl:6/12 lg:w-6/12 md:w-1/2  '>
